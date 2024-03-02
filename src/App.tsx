@@ -5,7 +5,7 @@ export default function App() {
         className="card bg-white color-wenge-brown outfit"
         style={{ maxWidth: "700px" }}
       >
-        <img className="image" src="/images/image-omelette.jpeg" />
+        <img className="image" src="images/image-omelette.jpeg" />
         <div style={{ marginTop: "3rem" }}>
           <h1
             className="title young-serif color-dark-charcoal"
