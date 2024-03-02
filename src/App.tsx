@@ -5,7 +5,11 @@ export default function App() {
         className="card bg-white color-wenge-brown outfit"
         style={{ maxWidth: "700px" }}
       >
-        <img className="image" src="images/image-omelette.jpeg" />
+        <img
+          className="image"
+          alt="delicious taco"
+          src="https://res.cloudinary.com/dts5hyzdq/image/upload/q_80,f_avif/v1709381264/Frontend%20Mentor/00%20Recipe%20Page/image-omelette.jpg"
+        />
         <div style={{ marginTop: "3rem" }}>
           <h1
             className="title young-serif color-dark-charcoal"
@@ -20,12 +24,12 @@ export default function App() {
           </p>
         </div>
         <div className="card bg-rose-white" style={{ marginTop: "3rem" }}>
-          <h3
+          <h2
             className="title outfit color-dark-raspberry"
             style={{ fontSize: "1.4rem" }}
           >
             Preparation time
-          </h3>
+          </h2>
           <ul
             className="list color-dark-raspberry"
             style={{ paddingLeft: "2rem" }}
@@ -66,7 +70,7 @@ export default function App() {
         </div>
         <hr style={{ color: "rgba(0,0,0,0.2)", marginBlock: "3rem" }} />
         <div>
-          <h2 className="title young-serif color-nutmeg">Instructions</h2>
+          <h3 className="title young-serif color-nutmeg">Instructions</h3>
           <ol
             className="list"
             style={{ color: "var(--nutmeg)", fontWeight: 700 }}
@@ -127,7 +131,7 @@ export default function App() {
         </div>
         <hr style={{ color: "rgba(0,0,0,0.2)", marginBlock: "3rem" }} />
         <div>
-          <h2 className="title young-serif color-nutmeg">Nutrition</h2>
+          <h3 className="title young-serif color-nutmeg">Nutrition</h3>
           <p style={{ marginBlock: "1rem" }}>
             The table below shows nutritional values per serving without the
             additional fillings.
