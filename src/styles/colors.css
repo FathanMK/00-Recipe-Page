@@ -1,0 +1,62 @@
+:root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+/* Background color classes */
+.bg-nutmeg {
+  background-color: var(--nutmeg);
+}
+.bg-dark-raspberry {
+  background-color: var(--dark-raspberry);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.bg-rose-white {
+  background-color: var(--rose-white);
+}
+.bg-eggshell {
+  background-color: var(--eggshell);
+}
+.bg-light-grey {
+  background-color: var(--light-grey);
+}
+.bg-wenge-brown {
+  background-color: var(--wenge-brown);
+}
+.bg-dark-charcoal {
+  background-color: var(--dark-charcoal);
+}
+
+/* Text color classes */
+.color-nutmeg {
+  color: var(--nutmeg);
+}
+.color-dark-raspberry {
+  color: var(--dark-raspberry);
+}
+.color-white {
+  color: var(--white);
+}
+.color-rose-white {
+  color: var(--rose-white);
+}
+.color-eggshell {
+  color: var(--eggshell);
+}
+.color-light-grey {
+  color: var(--light-grey);
+}
+.color-wenge-brown {
+  color: var(--wenge-brown);
+}
+.color-dark-charcoal {
+  color: var(--dark-charcoal);
+}
