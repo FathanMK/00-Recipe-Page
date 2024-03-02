@@ -4,7 +4,7 @@ export default function Header() {
       <img
         className="image"
         alt="delicious taco"
-        src="https://res.cloudinary.com/dts5hyzdq/image/upload/q_80,f_avif/v1709381264/Frontend%20Mentor/00%20Recipe%20Page/image-omelette.jpg"
+        src="https://res.cloudinary.com/dts5hyzdq/image/upload/q_50,f_avif/v1709381264/Frontend%20Mentor/00%20Recipe%20Page/image-omelette.jpg"
       />
       <div style={{ marginTop: "3rem" }}>
         <h1
